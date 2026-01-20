@@ -124,7 +124,7 @@ def enemy_turn(index=0):
     player.take_damage(enemy.get_damage())
 
     # Display attack message
-    display_message(f"Enemy dealt {enemy.get_damage()} to you!", duration=2)
+    display_message(f"Enemy dealt {enemy.get_damage()} damage to you!", duration=2)
 
     # Check for game over
     if player.get_health() <= 0:
